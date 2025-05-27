@@ -8,7 +8,7 @@
     "modalities": [["diag"], ["prescription"], ["ydelse"], ["diag", "ydelse", "prescription"]],
     "epochs":[30],
     "cuda":[true],
-    "classifier" : ["Linear"],
+    "classifier" : ["CumulativeProbability"],
     "hidden_dim":[128,256,384],
     "model_name": ["BagOfWords"],
     "optimizer":["adam"],

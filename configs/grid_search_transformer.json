@@ -10,7 +10,7 @@
     "fusion_layers": [0],
     "num_layers": [2,4],
     "cuda":[true],
-    "classifier" : ["Linear"],
+    "classifier" : ["CumulativeProbability"],
     "hidden_dim":[128,256,384],
     "model_name": ["MultiTrajectory"],
     "encoder":["Transformer"],
