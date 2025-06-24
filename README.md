@@ -1,6 +1,6 @@
 # A Deep Learning Approach Across Primary and Secondary Care for Early Detection of Young-Onset Type 2 Diabetes
 ## Introduction
-This repository contains the code implementation used in the paper [A Deep Learning Approach Across Primary and Secondary Care for Early Detection of Young-Onset Type 2 Diabetes](INSERT LINK).
+This repository contains the code implementation used in the paper A Deep Learning Approach Across Primary and Secondary Care for Early Detection of Young-Onset Type 2 Diabetes.
 We constructed health-event trajectories from different EHR systems spanning both primary and secondary care for detection of young-onset type 2 diabetes in the general population.
 
 ## Usage
