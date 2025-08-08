@@ -1,6 +1,6 @@
 # A Deep Learning Approach Across Primary and Secondary Care for Early Detection of Young-Onset Type 2 Diabetes
 ## Introduction
-This repository contains the code implementation used in the paper A Deep Learning Approach Across Primary and Secondary Care for Early Detection of Young-Onset Type 2 Diabetes.
+This repository contains the code implementation used in the paper [A Deep Learning Approach Across Primary and Secondary Care for Early Detection of Young-Onset Type 2 Diabetes](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5333600).
 We constructed health-event trajectories from different EHR systems spanning both primary and secondary care for detection of young-onset type 2 diabetes in the general population.
 
 ## Usage
@@ -16,7 +16,7 @@ Within the folder `data` are example files for all files used in the data pipeli
 * [diagnoses.tsv](./data/diagnoses.tsv) contains the ICD-10 codes given at the hospital.
 * [prescription.tsv](./data/prescription.tsv) contains the prescriptions redeemed at the pharmacies and their ATC code.
 * [ydelse.tsv](./data/ydelse.tsv) contains the services performed in primary care.
-* [ydelse_mapping.tsv](./data/ydelse_mapping.tsv) contains the mapping between the unmerged service codes and the mapped codes as described in (LINK TO PAPER).
+* [ydelse_mapping.tsv](./data/ydelse_mapping.tsv) contains the mapping between the unmerged service codes and the mapped codes (described in paper).
 
 
 ### Generating a duckdb database
